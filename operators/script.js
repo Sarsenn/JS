@@ -23,3 +23,19 @@ const isCheked = false;
 const isClose = false;
 
 console.log(isCheked || !isClose)
+
+let a = 36
+
+a++
+++a
+--a
+a--
+typeof a
+new Object()
+
+a = 11
+a + 6
+a - 7
+a += 4
+a === 5
+a && 7
