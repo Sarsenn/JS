@@ -39,3 +39,25 @@ a - 7
 a += 4
 a === 5
 a && 7
+
+!10// false
+!0 // true
+!'abc' //false
+!true //false
+!undefined //true
+
+const obj = {}
+
+console.log(!obj)
+
+const button = {
+	width: 200,
+	text: 'Buy'
+}
+
+const redButton = {
+	color: 'Red',
+	...button
+}
+
+console.log(redButton)

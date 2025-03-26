@@ -64,10 +64,10 @@ function detectPersonalLevel() {
 
 function rememberMyFilm() {
 for (let i = 0; i < 2; i++ ) {
-	let a = prompt('Один из последних просмотренных фильмов?', '');
+	let a = prompt('Один из последних просмотренных фильмов?', '').trim();
 
 	if(a !== '' && a !== null && a.length < 50 ) {
-		let b = +prompt('На сколько оцените его?', '')
+		let b = +prompt('На сколько оцените его?', '').trim()
 		personalMovieDB.movies[a] = b
 	} else {
 		i--;
